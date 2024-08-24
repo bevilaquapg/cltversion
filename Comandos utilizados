@@ -1,0 +1,60 @@
+HTML
+<head>Contém metadados sobre o documento.
+<meta charset="UTF-8">Especifica a codificação de caracteres como UTF-8.
+<meta name="viewport" content="width=device-width, initial-scale=1.0">: Define como o conteúdo deve ser exibido em dispositivos móveis.
+<title>: Define o título do documento.
+<link rel="stylesheet" href="styles.css"> Link para um arquivo CSS externo que contém os estilos da página. O atributo rel="stylesheet" indica que o arquivo é uma folha de estilo, e href especifica o caminho para o arquivo CSS.
+<body>Contém o conteúdo visível da página HTML.
+<header>: Representa a seção de cabeçalho da página.
+<h1>: Um elemento de cabeçalho de nível 1 usado para o título principal da página.
+<nav>: Elemento de navegação usado para agrupar os links de navegação.
+<ul>: Lista não ordenada utilizada para criar listas de itens com marcadores.
+<li>: Elemento de lista que define um item dentro de uma lista não ordenada (<ul>).
+<a href="#id">: Link âncora que leva a um ponto específico da página identificado pelo id correspondente.
+<main>: Elemento principal que envolve o conteúdo central da página.
+<section>: Define uma seção ou bloco de conteúdo relacionado.
+<h2>: Cabeçalho de nível 2 usado para seções.
+<p>Parágrafo de texto.
+<footer>: Elemento de rodapé da página.
+CSS
+body: Seleciona o elemento <body> e aplica estilos a ele.
+font-family: Arial, sans-serif;: Define a fonte padrão do texto.
+margin: 0;: Remove a margem padrão.
+padding: 0;: Remove o preenchimento padrão.
+background-color: #f4f4f4;: Define a cor de fundo para um tom de cinza claro.
+color: #333;: Define a cor do texto para um tom de cinza escuro.
+header: Seleciona o elemento <header> e aplica estilos a ele.
+background-color: #333;: Define a cor de fundo como cinza escuro.
+color: #fff;: Define a cor do texto como branco.
+padding: 20px;: Adiciona preenchimento de 20 pixels ao redor do conteúdo.
+text-align: center;: Centraliza o texto dentro do cabeçalho.
+nav: Seleciona o elemento <nav> e aplica estilos a ele.
+background-color: #444;: Define a cor de fundo como um tom intermediário de cinza escuro.
+nav ul: Seleciona a lista não ordenada dentro do elemento <nav>.
+list-style: none;: Remove os marcadores padrão da lista.
+padding: 0;: Remove o preenchimento padrão.
+margin: 0;: Remove a margem padrão.
+text-align: center;: Centraliza o conteúdo da lista.
+nav ul li: Seleciona os itens de lista dentro da lista de navegação.
+display: inline;: Exibe os itens de lista em linha, ao invés de em bloco.
+margin: 0 15px;: Adiciona uma margem de 15 pixels à esquerda e à direita de cada item.
+nav ul li a: Seleciona os links dentro dos itens de lista na navegação.
+color: #fff;: Define a cor do texto dos links como branco.
+text-decoration: none;: Remove o sublinhado padrão dos links.
+padding: 10px 20px;: Adiciona preenchimento de 10 pixels na vertical e 20 pixels na horizontal ao redor do texto dos links.
+display: inline-block;: Permite que o preenchimento e a margem sejam aplicados como em elementos de bloco.
+main: Seleciona o elemento <main>.
+padding: 20px;: Adiciona preenchimento de 20 pixels ao redor do conteúdo principal.
+section: Seleciona cada seção dentro do elemento <main>.
+margin-bottom: 20px;: Adiciona uma margem inferior de 20 pixels entre as seções.
+background-color: #fff;: Define a cor de fundo da seção como branco.
+padding: 15px;: Adiciona preenchimento de 15 pixels ao redor do conteúdo da seção.
+border-radius: 5px;: Arredonda as bordas da seção em 5 pixels.
+footer: Seleciona o elemento <footer>.
+background-color: #333;: Define a cor de fundo como cinza escuro.
+color: #fff;: Define a cor do texto como branco.
+text-align: center;: Centraliza o texto dentro do rodapé.
+padding: 10px;: Adiciona preenchimento de 10 pixels ao redor do conteúdo do rodapé.
+position: fixed;: Fixa o rodapé na parte inferior da janela de visualização.
+bottom: 0;: Posiciona o rodapé na parte inferior da página.
+width: 100%;: Define a largura do rodapé para cobrir 100% da largura da página.
